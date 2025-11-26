@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.turing.dsa.sorting.MergeSortRecursiveTest" time="0.036" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="MS932"/>
+    <property name="java.class.path" value="D:\Development\data_structure_and_algorithm\target\test-classes;D:\Development\data_structure_and_algorithm\target\classes;C:\Users\ThinYuWai\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\ThinYuWai\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\ThinYuWai\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\ThinYuWai\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\ThinYuWai\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ThinYuWai\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\ThinYuWai\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\ThinYuWai\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Tokyo"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="user.country" value="JP"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Apache NetBeans\jdk\bin"/>
+    <property name="sun.java.command" value="C:\Users\ThinYuWai\AppData\Local\Temp\surefire7586403483292489259\surefirebooter-20251126155441562_3.jar C:\Users\ThinYuWai\AppData\Local\Temp\surefire7586403483292489259 2025-11-26T15-54-41_305-jvmRun1 surefire-20251126155441562_1tmp surefire_0-20251126155441562_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="com.turing.dsa.sorting.MergeSortRecursiveTest#sortMergeComplexCase"/>
+    <property name="surefire.test.class.path" value="D:\Development\data_structure_and_algorithm\target\test-classes;D:\Development\data_structure_and_algorithm\target\classes;C:\Users\ThinYuWai\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\ThinYuWai\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\ThinYuWai\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\ThinYuWai\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\ThinYuWai\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ThinYuWai\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\ThinYuWai\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\ThinYuWai\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ThinYuWai"/>
+    <property name="user.language" value="ja"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\Program Files\Apache NetBeans\jdk"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Development\data_structure_and_algorithm"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ThinYuWai\AppData\Local\Temp\surefire7586403483292489259\surefirebooter-20251126155441562_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.1+8-LTS"/>
+    <property name="user.name" value="ThinYuWai"/>
+    <property name="stdout.encoding" value="MS932"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-25.0.1+8"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\Apache NetBeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\ThinYuWai\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\THINYU~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="25.0.1"/>
+    <property name="user.dir" value="D:\Development\data_structure_and_algorithm"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="MS932"/>
+    <property name="java.library.path" value="C:\Program Files\Apache NetBeans\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\ThinYuWai\AppData\Local\Microsoft\WindowsApps;C:\Users\ThinYuWai\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ThinYuWai\AppData\Local\DBeaver\;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="MS932"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="25.0.1+8-LTS"/>
+    <property name="stdin.encoding" value="MS932"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="sortMergeComplexCase" classname="com.turing.dsa.sorting.MergeSortRecursiveTest" time="0.018">
+    <system-out><![CDATA[Output [2, 32, 82, 96, 102, 155, 168, 264, 352, 387, 387, 392, 438, 447, 562, 568, 602, 641, 653, 655, 707, 708, 756, 758, 920, 942, 944, 957, 968, 975]
+Output [32, 74, 75, 172, 184, 188, 194, 209, 236, 254, 256, 334, 355, 407, 408, 428, 451, 460, 544, 555, 562, 571, 620, 686, 729, 861, 875, 879, 884, 951]
+Output [10, 29, 155, 203, 219, 239, 292, 321, 322, 341, 558, 562, 564, 567, 571, 596, 613, 626, 675, 724, 731, 796, 801, 806, 821, 843, 893, 921, 940, 940]
+Output [9, 11, 77, 100, 106, 109, 159, 176, 180, 248, 272, 298, 316, 328, 372, 429, 438, 471, 509, 528, 553, 673, 686, 746, 765, 782, 832, 876, 911, 959]
+Output [2, 125, 151, 181, 186, 195, 216, 244, 265, 267, 301, 347, 353, 357, 365, 420, 435, 455, 555, 583, 610, 612, 618, 690, 715, 759, 802, 804, 844, 921]
+Output [0, 22, 32, 53, 153, 212, 260, 292, 307, 335, 355, 452, 477, 480, 484, 528, 562, 590, 631, 677, 695, 710, 733, 739, 754, 782, 797, 862, 927, 966]
+Output [10, 54, 65, 110, 168, 178, 187, 218, 251, 277, 361, 396, 398, 495, 507, 576, 593, 647, 657, 697, 722, 727, 730, 747, 764, 879, 919, 964, 994, 995]
+Output [49, 66, 80, 144, 152, 159, 172, 216, 303, 309, 338, 409, 445, 452, 486, 507, 535, 564, 714, 818, 827, 847, 850, 861, 888, 893, 913, 921, 929, 940]
+Output [30, 35, 52, 110, 116, 166, 203, 207, 212, 229, 233, 255, 276, 297, 325, 344, 446, 561, 636, 738, 755, 762, 790, 827, 832, 842, 882, 928, 929, 997]
+Output [45, 56, 62, 77, 93, 103, 176, 210, 248, 277, 293, 297, 351, 385, 416, 421, 513, 556, 571, 726, 731, 748, 793, 840, 857, 872, 940, 942, 983, 988]
+]]></system-out>
+  </testcase>
+</testsuite>
